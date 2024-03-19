@@ -9,6 +9,9 @@ import { StatisticComponent } from './statistic/statistic.component';
 import { FeaturesComponent } from './features/features.component';
 import { PackageComponent } from './package/package.component';
 import { NetworkComponent } from './network/network.component';
+import { CustomersComponent } from './customers/customers.component';
+import { SubscribeComponent } from './subscribe/subscribe.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,13 +21,26 @@ import { NetworkComponent } from './network/network.component';
     StatisticComponent,
     FeaturesComponent,
     PackageComponent,
-    NetworkComponent
+    NetworkComponent,
+    CustomersComponent,
+    SubscribeComponent,
+    FooterComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [HeaderComponent, FirstArticleComponent, StatisticComponent,FeaturesComponent,PackageComponent,NetworkComponent]
+  bootstrap: [HeaderComponent, 
+    FirstArticleComponent, 
+    StatisticComponent,
+    FeaturesComponent,
+    PackageComponent,
+    NetworkComponent,
+    CustomersComponent,
+    SubscribeComponent,
+    FooterComponent
+  ]
 })
 export class AppModule { }

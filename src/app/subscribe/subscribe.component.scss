@@ -1,0 +1,35 @@
+.subscribe-title h2{
+    font-family: rubik-bold;
+    font-size: 35px;
+    line-height: 45px;
+    color: #0B132A;
+    max-width: 372.61px;
+    width: 100%;
+    height: 80px;
+}
+.subscribe-title p{
+    margin-top: 20px;
+    font-family: rubik;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+.subscribe-button button{
+    width: 250px;
+    height: 60px;
+    color: #fff;
+    background-color: #F53838;
+    border-radius: 10px;
+    border: none;
+    font-family: rubik;
+    font-size: 16px;
+}
+.subscribe-button button:hover{
+    background-color: #FA9D36;
+}
+.subscribe-box{
+    margin-top: 123px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

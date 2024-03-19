@@ -1,0 +1,64 @@
+footer{
+    width: 1440px;
+    height: 563.12px;
+    background-color:#F8F8F8;
+    padding-top: 238px;
+    margin-top: -116px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    width: 149px;
+    height: 36px;
+}
+.about-company-main-txt{
+    font-family: rubik;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    width: 340px;
+    height: 61.57px;
+    margin-top: 20px;
+}
+.soc-media{
+    display: flex;
+    margin-top: 30px;
+}
+.soc-media img{
+    width: 63.6px;
+    height: 63.6px;
+    cursor: pointer;
+}
+.rights {
+    margin-top: 30px;
+    font-family: rubik;
+    font-size: 16px;
+    color: #AFB5C0;
+    line-height: 30px;
+}
+.footer-navbar-item ul li{
+    font-family: rubik;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+.footer-navbar-item ul{
+    margin-top: 20px;
+}
+.footer-navbar-item p{
+    font-family: rubik-bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+}
+.footer-navbar{
+    display: flex;
+    gap: 126px;
+}
+.footer-navbar-item ul li:hover{
+    color: #F53838;
+}
