@@ -1,0 +1,106 @@
+.package{
+    margin-top: 207px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.package h1{
+    font-family: rubik-bold;
+    font-size: 35px;
+    color: #0B132A;
+    text-align: center;
+}
+.package-main-txt{
+    margin-top: 20px;
+    font-family: rubik;
+    font-size: 16px;
+    color: #4F5665;
+    text-align: center;
+    max-width: 555px;
+    width: 100%;
+    height: 60px;
+}
+.package-items{
+    margin-top: 60px;
+    display: flex;
+    gap: 50px;
+}
+.package-item{
+    width: 330px;
+    height: 760px;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.package-item-img{
+    max-width: 144px;
+    width: 100%;
+    height: 165px;
+    margin-top: 79px;
+}
+.package-item h2{
+    font-family: rubik-bold;
+    font-size: 18px;
+    color: #0B132A;
+    line-height: 30px;
+    margin-top: 30px;
+}
+.package-service{
+    display: flex;
+    gap: 20px;
+}
+.package-service img{
+    max-width: 24px;
+    width: 100%;
+    height: 24px;
+}
+.package-service p{
+    font-family: rubik;
+    font-size: 14px;
+    color: #4F5665;
+    line-height: 30px;
+}
+.package-item h1{
+    font-family: rubik-bold;
+    font-size: 25px;
+    color: #0B132A;
+    line-height: 30px;
+}
+.package-item button{
+    max-width: 177px;
+    width: 100%;
+    height: 45px;
+    font-family: rubik-bold;
+    font-size: 16px;
+    background-color: white;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.services-div{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.package-item h1 span{
+    color: #4F5665;
+}
+.package-free{
+    margin-top: 130px;
+}
+.package-standard{
+    margin-top: 90px;
+}
+.package-premium{
+    margin-top: 50px;
+}
+.package-item:hover{
+    border: 2px solid #F53838;
+}
+.package-item button:hover{
+    background-color: #F53838;
+    color: white;
+}

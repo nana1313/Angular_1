@@ -1,0 +1,48 @@
+.fisrt-article-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.fisrt-article-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fisrt-article-txt h2{
+    font-family: rubik-bold;
+    font-size: 50px;
+    max-width: 555px;
+    width: 100%;
+    height: 140px;
+    color: #0B132A;
+}
+.fisrt-article-txt p{
+    font-family: rubik;
+    font-size: 16px;
+    color: #4F5665;
+    max-width: 555px;
+    width: 100%;
+    height: 60px;
+    line-height: 30px;
+}
+.fisrt-article-txt button{
+    margin-top: 50px;
+    max-width: 250px;
+    width: 100%;
+    height: 60px;
+    background-color: #F53838;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-family: rubik-bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.fisrt-article-txt button:hover{
+    background-color: #F09D4B;
+}
+.fisrt-article-img img{
+    max-width: 611px;
+    width: 100%;
+    height: 382px;
+}

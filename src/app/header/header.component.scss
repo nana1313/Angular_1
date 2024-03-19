@@ -1,0 +1,43 @@
+
+header{
+    margin-top: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.logo img{
+    width: 149px;
+    height: 36.23px;
+}
+.navbar-items li{
+    list-style: none;
+    font-family: rubik;
+    color: #4F5665;
+    font-size: 16px;
+    cursor: pointer;
+}
+.navbar-items li:hover{
+    color: #F53855;
+}
+.navbar-items{
+    display: flex;
+    gap: 40px;
+}
+.signin,
+.signup{
+    width: 150px;
+    height: 45px;
+    font-family: rubik-bold;
+    font-size: 16px;
+    color: #0B132A;
+    border: none;
+    background-color: white;
+}
+
+.signup:hover,
+.signin:hover{
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    color: #F53855;
+}

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: rubik;
+    src: url(assets/fonts/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: rubik-bold;
+    src: url(assets/fonts/Rubik-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+.box{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}

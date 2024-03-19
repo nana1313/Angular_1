@@ -1,0 +1,26 @@
+.statistic{
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+.statistic-img{
+    max-width: 55px;
+    width: 100%;
+    height: 55px;
+}
+.statistic-txt h2{
+    font-family: rubik-bold;
+    font-size: 25px;
+    color: #0B132A;
+}
+.statistic-txt p{
+    font-family: rubik;
+    font-size: 20px;
+    color: #4F5665;
+}
+.users,
+.locations,
+.servers{
+    display: flex;
+    gap: 36px;
+}
